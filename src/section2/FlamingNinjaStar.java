@@ -2,6 +2,8 @@ package section2;
 
 import org.jointheleague.graphical.robot.Robot;
 
+import com.sun.javafx.geom.Shape;
+
 public class FlamingNinjaStar {
 	
 	public static void main(String[] args) {
@@ -10,9 +12,10 @@ public class FlamingNinjaStar {
 		int flameSize = 200;		//the length of the flaming arms
 		
 		// 1. Make a new robot, and set it's pen down.
-
+		Robot flamingninjastar = new Robot ();
 		// *14. Use the methods setX and setY to move the ninja star into the center of the screen
-		
+		flamingninjastar.setX(380); 
+		flamingninjastar.setY(225);
 		// *15. Make some adjustments to see what other kinds of shapes you can make.
 
 		// 12. Set the robot speed to 100
